@@ -40,9 +40,16 @@
 #i-tag{
     color: black;
 }
+#i-tag-light{
+    color: white;
+}
 #pri-btn{
     color: white;
     background-color: black;
+}
+#pri-btn-2{
+    color: #000000;
+    background-color: #ffffff;
 }
 #shorter{
     width: 260px;
@@ -62,7 +69,7 @@
         flex-direction: row;
     }
     #client{
-        margin-left:-10%;
+        margin-left:-6%;
     }
 }
 #values{
@@ -70,6 +77,9 @@
 }
 #h-v{
     border-bottom: 2px solid black;
+}
+#color-2{
+    background-color: black;
 }
 
 /*** my edit ****************************************************************/
@@ -164,7 +174,7 @@
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: var(--dark);
+    color: white;
     font-weight: 500;
 }
 
@@ -302,7 +312,7 @@
 /*** Category ***/
 .cat-item {
     display: block;
-    box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+    box-shadow: 0 0 45px rgba(53, 47, 47, 0.783);
     border: 1px solid transparent;
     transition: .5s;
 }
