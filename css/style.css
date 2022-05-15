@@ -33,6 +33,7 @@
 #tach-logo{
     height: 50px;
     width: 50px;
+    margin-top: 5px;
 }
 #change-color{
     color:#f7a100fb ;
@@ -50,6 +51,11 @@
 #pri-btn-2{
     color: #000000;
     background-color: #ffffff;
+}
+#pri-btn-3{
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 20px;
 }
 #shorter{
     width: 260px;
