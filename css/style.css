@@ -31,9 +31,9 @@
 }
 /*** my edit****************************************************************/
 #tach-logo{
-    height: 50px;
-    width: 50px;
-    margin-top: 5px;
+    height: 40px;
+    width: 35px;
+   
 }
 #change-color{
     color:#f7a100fb ;
@@ -219,8 +219,8 @@ color: #d2d2d2;
 .header-carousel .container,
 .page-header .container {
     position: relative;
-    padding: 45px 0 45px 35px;
-    border-left: 15px solid #000000fb;
+    padding: 35px 0 45px 35px;
+    border-left: 10px solid #000000fb;
 }
 
 .header-carousel .container::before,
@@ -232,14 +232,14 @@ color: #d2d2d2;
     top: 0;
     left: 0;
     width: 100px;
-    height: 15px;
+    height: 10px;
     background: #000000fb;
 }
 
 .header-carousel .container::after,
 .page-header .container::after {
     top: 100%;
-    margin-top: -15px;
+    margin-top: -10px;
 }
 
 @media (max-width: 768px) {
@@ -322,7 +322,7 @@ color: #d2d2d2;
 /*** Category ***/
 .cat-item {
     display: block;
-    box-shadow: 0 0 45px rgba(53, 47, 47, 0.783);
+    box-shadow: 0 0 5px rgba(59, 59, 59, 0.803);
     border: 1px solid transparent;
     transition: .5s;
 }
